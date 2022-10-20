@@ -64,18 +64,18 @@
     <main>
       <h1>Paket kapatıcı</h1>
 
-      <p><a href="https://packager.turbowarp.org/">TurboWarp Paketleyici</a>, the <a href="https://forkphorus.github.io/packager/">forkphorus packager</a>, or <a href="https://sheeptester.github.io/htmlifier/">HTMLifier</a> and this tool will try to extract the original Scratch project.</p>
+      <p><a href="https://packager.turbowarp.org/">TurboWarp Paketleyici</a>, veya <a href="https://forkphorus.github.io/packager/">Forkphorus Paketleyici</a>, veya <a href="https://sheeptester.github.io/htmlifier/">HTMLifier</a> tarafından oluşturulan bir HTML veya zip dosyasını seçin veya bırakın ve bu araç orijinal Scratch projesini çıkarmaya çalışacak.</p>
 
       <input type="file" class="file-input" accept=".zip, .html" multiple autocomplete="off">
 
       <p class="download-section"></p>
 
-      <h2>Limitations</h2>
-      <p>Having access to a packaged version of a project does not necessarily mean that you are legally allowed to unpackage the project, modify it, or redistribute it. We are not lawyers and will not provide legal advice on this matter.</p>
-      <p>The TurboWarp Packager removes comments and script positions from packaged projects, so you may have to manually clean up the scripts.</p>
+      <h2>Sınırlamalar</h2>
+      <p>Bir projenin paket versiyonuna erişiminiz olması, projeyi açmanıza, değiştirmenize veya yeniden dağıtmanıza yasal olarak izin verildiği anlamına gelmez. Biz avukat değiliz ve bu konuda yasal tavsiyede bulunmayacağız.</p>
+      <p>TurboWarp Paketleyici, paketlenmiş projelerden yorumları ve blok konumlarını kaldırır, bu nedenle  blok konumlarını el ile ayarlamanız gerekebilir.</p>
 
-      <h2>Alternative</h2>
-      <p>If the unpackager doesn't work, you can open the project in your browser and try to run this in your browser's JavaScript console:</p>
+      <h2>Alternatif</h2>
+      <p>Paket açıcı çalışmazsa, projeyi tarayıcınızda açabilir ve bu kodu tarayıcınızın JavaScript konsolunda çalıştırmayı deneyebilirsiniz:</p>
       <p class="code">
         vm.saveProjectSb3().then((blob) => {<br>
         &nbsp;&nbsp;Object.assign(document.createElement('a'), {<br>
@@ -84,14 +84,14 @@
         &nbsp;&nbsp;}).click();<br>
         });
       </p>
-      <p>It would be best that you report what file this happens on so we can fix it.</p>
+      <p>Projeyi ayırabilmemiz için dosyanın hangi dosya olduğunu bildirmeniz gerekebilir.</p>
       <p>This code will not work in the forkphorus packager and may have issues in recent versions of the TurboWarp Packager.</p>
 
       <h2>Bugs</h2>
-      <p>Report bugs <a href="https://github.com/TurboWarp/unpackager/issues">on GitHub</a>.</p>
+      <p>Hataları bildirin: <a href="https://github.com/TurboWarp/unpackager/issues">o</a>.</p>
 
       <h2>Code</h2>
-      <p>Unpackager is <a href="https://github.com/TurboWarp/unpackager">open source</a>.</p>
+      <p>Paket ayırıcının <a href="https://github.com/TurboWarp/unpackager">kaynak kodu</a>.</p>
 
       <h2>Privacy</h2>
       <p>Files are processed locally on your computer and never sent to any server.</p>
