@@ -1,6 +1,6 @@
-# Unpackager
+# Paket ayıklayıcı
 
-https://turbowarp.github.io/unpackager/
+https://yaso09.github.io/TurboWarpUnpackager/
 
 Orijinal Scratch projesini, TurboWarp Paketleyici, forkphorus paketleyici veya HTMLifier tarafından oluşturulan HTML veya zip dosyalarından çıkarın.
 
